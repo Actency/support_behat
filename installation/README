@@ -1,2 +1,7 @@
-composer install
-./bin/behat --init
+To install composer:
+- curl -sS https://getcomposer.org/installer | php
+- php composer.Phar update
+
+Behat initialization:
+- composer install
+- ./bin/behat --init
