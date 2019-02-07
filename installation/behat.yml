@@ -1,0 +1,12 @@
+# behat.yml
+default:
+    suites:
+        default:
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~
+            selenium2: ~
+            base_url: http://fr.wikipedia.org
+

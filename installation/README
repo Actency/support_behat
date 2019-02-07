@@ -1,0 +1,2 @@
+composer install
+./bin/behat --init
