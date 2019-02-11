@@ -1,0 +1,16 @@
+{
+     "name": "hakim/cours",
+     "authors": [
+         {
+             "name": "Hakim Rachidi",
+             "email": "hakim.rachidi@gmail.com"
+         }
+     ],
+     "require": {
+         "behat/behat": "^3.5"
+     },
+     "config": {
+         "bin-dir": "bin/"
+     }
+ }
+
