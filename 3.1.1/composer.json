@@ -1,0 +1,15 @@
+{
+     "name": "hakim/cours",
+     "authors": [
+         {
+             "name": "Hakim Rachidi",
+             "email": "hakim.rachidi@gmail.com"
+         }
+     ],
+     "require": {
+          "drupal/drupal-extension": "^3.4"
+     },
+     "config": {
+         "bin-dir": "bin/"
+     }
+ }
