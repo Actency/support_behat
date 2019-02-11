@@ -4,4 +4,24 @@ default:
         default:
             contexts:
                 - Drupal\DrupalExtension\Context\DrupalContext
+                - Drupal\DrupalExtension\Context\MinkContext
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~
+            base_url: http://127.0.0.1:8888
+        Drupal\DrupalExtension:
+            blackbox: ~
+            api_driver: 'drupal'
+            drush:
+                alias: 'local'
+            drupal:
+                drupal_root: '.'
+            region_map:
+                footer: '#footer'
+            text:
+                log_out: 'Log out'
+                log_in: 'Log in'
+                password_field: 'edit-pass'
+                username_field: 'edit-name'
+
 
