@@ -1,0 +1,12 @@
+# behat.yml
+default:
+    suites:
+        default:
+            contexts:
+                - Behat\MinkExtension\Context\MinkContext
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~
+            base_url: https://fr.wikipedia.org
+
+
